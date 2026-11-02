@@ -1,0 +1,306 @@
+<!doctype html>
+<html lang="th" data-bs-theme="linear">
+
+<head>
+    <title>Collection | Personal Collection</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS v5.3.8 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+    <meta name="description" content="อัลบั้มเกาหลีที่เติมโตมาด้วยกัน" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,600;1,700&amp;family=Noto+Sans+Thai:wght@400;500;600&amp;display=swap" />
+    <link rel="stylesheet" href="css/style.css" />
+
+</head>
+
+<body id="top">
+    <a class="skip-link" href="#main">ข้ามไปเนื้อหา</a>
+    <header class="site-header">
+        <nav class="navbar navbar-expand-md navbar-light" aria-label="เมนูหลัก">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">K-ollection</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#mainNav"
+                    aria-controls="mainNav" aria-label="เปิดเมนู">
+                    <i class="icon" data-lucide="menu" aria-hidden="true"></i>
+                </button>
+                <div class="offcanvas-md offcanvas-end" tabindex="-1" id="mainNav" aria-labelledby="menuTitle">
+
+                    <div class="offcanvas-header">
+                        <span id="menuTitle">Personal Collection</span>
+                        <button class="menu-close" type="button" data-bs-dismiss="offcanvas" data-bs-target="#mainNav"
+                            aria-label="ปิดเมนู">
+                            <i class="icon" data-lucide="x" aria-hidden="true"></i>
+                        </button>
+                    </div>
+
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="story.html">Story</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="collection.html" aria-current="page">Collection</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html">About</a>
+                            </li>
+                        </ul>
+                        <div class="mobile-contact">
+                            <a class="menu-email email-link" href="mailto:hello@example.com">
+                                <i class="icon" data-lucide="mail" aria-hidden="true"></i>
+                                <span>hello@example.com</span>
+                            </a>
+                            <div class="menu-socials">
+                                <a href="https://www.instagram.com/" target="_blank"
+                                    rel="noopener noreferrer">Instagram</a>
+                                <a href="https://www.behance.net/" target="_blank" rel="noopener noreferrer">Behance</a>
+                                <a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </nav>
+    </header>
+    <main id="main" tabindex="-1">
+        <section class="collection-intro container">
+            <h1>
+                Collected
+                <br />
+                <em>favorites.</em>
+            </h1>
+        </section>
+        <section class="board-section" aria-label="Collection">
+            <div class="board-toolbar container">
+                <div class="board-navigation">
+                    <button class="motion-control" id="board-pause" type="button" aria-label="หยุดการเลื่อน"
+                        aria-pressed="false">
+                        <i class="icon" data-lucide="pause" aria-hidden="true"></i>
+                        <span>Pause</span>
+                    </button>
+                    <button class="motion-control" id="board-prev" type="button" aria-label="เลื่อนภาพก่อนหน้า">
+                        <i class="icon" data-lucide="arrow-left" aria-hidden="true"></i>
+                        <span>Previous</span>
+                    </button>
+                    <button class="motion-control" id="board-next" type="button" aria-label="เลื่อนภาพถัดไป">
+                        <span>Next</span>
+                        <i class="icon" data-lucide="arrow-right" aria-hidden="true"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="board-viewport" id="board-viewport" role="region" aria-label="ภาพในคอลเล็กชัน">
+                <div class="collage-board">
+                    <div class="collection-group">
+                        <figure class="collection-item item-spirited item-high">
+                            <a class="collection-image" href="detail.html?id=spirited"
+                                aria-label="See details: Moonlight">
+                                <img src="assets/images/collection/overdose.jpg" alt="Moonlight"
+                                    draggable="false" />
+                            </a>
+                            <figcaption>
+                                <h2>Moonlight</h2>
+                                <p>Overdose - The 2nd Mini Album</p>
+                                <p class="item-maker">EXO-K</p>
+                                <a class="text-link" href="detail.html?id=Moonlight">
+                                    See details
+                                    <i class="icon" data-lucide="arrow-up-right" aria-hidden="true"></i>
+                                </a>
+                            </figcaption>
+                        </figure>
+                        <figure class="collection-item item-ram item-low">
+                            <a class="collection-image" href="detail.html?id=ram"
+                                aria-label="See details: Random Access Memories">
+                                <img src="assets/images/collection/thestroy.png"
+                                    alt="Random Access Memories" draggable="false" />
+                            </a>
+                            <figcaption>
+                                <h2>You & I</h2>
+                                <p>The Story of Light'Epilogue - Th 6th Album</p>
+                                <p class="item-maker">SHINee</p>
+                                <a class="text-link" href="detail.html?id=thestroy">
+                                    See details
+                                    <i class="icon" data-lucide="arrow-up-right" aria-hidden="true"></i>
+                                </a>
+                            </figcaption>
+                        </figure>
+
+                        <div class="scene-word" aria-hidden="true">
+                            Best
+                            <br />
+                            <em>song forever.</em>
+                        </div>
+                        <figure class="collection-item item-prince item-high">
+                            <a class="collection-image" href="detail.html?id=prince"
+                                aria-label="See details: The Little Prince">
+                                <img src="assets/images/collection/Odd.png" alt="The Little Prince"
+                                    draggable="false" />
+                            </a>
+                            <figcaption>
+                                <h2>Black Hole</h2>
+                                <p>Odd - The 4th Album</p>
+                                <p class="item-maker">SHINee</p>
+                                <a class="text-link" href="detail.html?id=prince">
+                                    See details
+                                    <i class="icon" data-lucide="arrow-up-right" aria-hidden="true"></i>
+                                </a>
+                            </figcaption>
+                        </figure>
+                        <figure class="collection-item item-x100 item-low">
+                            <a class="collection-image" href="detail.html?id=x100"
+                                aria-label="See details: Fujifilm X100">
+                                <img src="assets/images/collection/Poet.jpg" alt="Before Our Spring"
+                                    draggable="false" />
+                            </a>
+                            <figcaption>
+                                <h2>Before Our Spring</h2>
+                                <p>Poet | Artist</p>
+                                <p class="item-maker">JONGHYUN</p>
+                                <a class="text-link" href="detail.html?id=Before Our Spring">
+                                    See details
+                                    <i class="icon" data-lucide="arrow-up-right" aria-hidden="true"></i>
+                                </a>
+                            </figcaption>
+                        </figure>
+
+                        <figure class="collection-item item-budapest item-high">
+                            <a class="collection-image" href="detail.html?id=budapest"
+                                aria-label="See details: The Grand Budapest Hotel">
+                                <img src="assets/images/collection/hotsauce.jpg"
+                                    alt="The Grand Budapest Hotel" draggable="false" />
+                            </a>
+                            <figcaption>
+                                <h2>ANL</h2>
+                                <p>Hot Sauce - The 1st Album</p>
+                                <p class="item-maker">NCT DREAM</p>
+                                <a class="text-link" href="detail.html?id=budapest">
+                                    See details
+                                    <i class="icon" data-lucide="arrow-up-right" aria-hidden="true"></i>
+                                </a>
+                            </figcaption>
+                        </figure>
+                        <div class="scene-word" aria-hidden="true">
+                            Full
+                            <br />
+                            <em>feeling.</em>
+                        </div>
+                        <figure class="collection-item item-am item-low">
+                            <a class="collection-image" href="detail.html?id=am" aria-label="See details: AM">
+                                <img src="assets/images/collection/loveme.jpg" alt="AM" draggable="false" />
+                            </a>
+                            
+                            <figcaption>
+                                <h2>TENDER LOVE</h2>
+                                <p>LOVE ME RIGHT - The 2nd Album</p>
+                                <p class="item-maker">EXO</p>
+                                <a class="text-link" href="detail.html?id=am">
+                                    See details
+                                    <i class="icon" data-lucide="arrow-up-right" aria-hidden="true"></i>
+                                </a>
+                            </figcaption>
+                        </figure>
+
+                        <figure class="collection-item item-hobbit item-high">
+                            <a class="collection-image" href="detail.html?id=hobbit"
+                                aria-label="See details: The Hobbit">
+                                <img src="assets/images/collection/obsession.jpg" alt="The Hobbit" draggable="false" />
+                            </a>
+                            <figcaption>
+                                <h2>Ya Ya Ya</h2>
+                                <p>OBSESSION - The 6th Album</p>
+                                <p class="item-maker">EXO</p>
+                                <a class="text-link" href="detail.html?id=hobbit">
+                                    See details
+                                    <i class="icon" data-lucide="arrow-up-right" aria-hidden="true"></i>
+                                </a>
+                            </figcaption>
+                        </figure>
+
+                        <div class="scene-word" aria-hidden="true">
+                            A little
+                            <br />
+                            <em>more.</em>
+                        </div>
+                        <figure class="collection-item item-converse item-low">
+                            <a class="collection-image" href="detail.html?id=converse"
+                                aria-label="See details: Converse All Star">
+                                <img src="assets/images/collection/thestroy.png" alt="Converse All Star"
+                                    draggable="false" />
+                            </a>
+                            <figcaption>
+                                <h2>Our Page</h2>
+                                <p>The Story of Light'Epilogue - Th 6th Album</p>
+                                <p class="item-maker">SHINee</p>
+                                <a class="text-link" href="detail.html?id=converse">
+                                    See details
+                                    <i class="icon" data-lucide="arrow-up-right" aria-hidden="true"></i>
+                                </a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+    </main>
+    <footer class="site-footer">
+        <div class="footer-main">
+            <a class="footer-brand" href="index.html">
+                Personal
+                <br />
+                Collection
+            </a>
+
+            <nav aria-label="เมนูท้ายหน้า">
+                <h2>Navigation</h2>
+                <a href="index.html">Home</a>
+                <a href="story.html">Story</a>
+                <a href="collection.html">Collection</a>
+                <a href="about.html">About</a>
+            </nav>
+            <div class="footer-contact">
+                <h2>Contact</h2>
+                <a href="mailto:hello@example.com">
+                    <i class="icon" data-lucide="mail" aria-hidden="true"></i>
+                    <span>hello@example.com</span>
+                </a>
+                <div class="social-links">
+                    <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
+                        Instagram
+                        <i class="icon" data-lucide="arrow-up-right" aria-hidden="true"></i>
+                    </a>
+                    <a href="https://www.behance.net/" target="_blank" rel="noopener noreferrer">
+                        Behance
+                        <i class="icon" data-lucide="arrow-up-right" aria-hidden="true"></i>
+                    </a>
+                    <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                        GitHub
+                        <i class="icon" data-lucide="arrow-up-right" aria-hidden="true"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <span>© 2026 Personal Collection</span>
+            <a href="#top">
+                Back to top
+                <i class="icon" data-lucide="arrow-up" aria-hidden="true"></i>
+            </a>
+        </div>
+    </footer>
+    <!-- Bootstrap JavaScript Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
